@@ -22,13 +22,13 @@ public class ParEImpar {
             System.out.println("Número: ");
             numero = scan.nextInt();
 
-            if (numero % 2 == 0) quantPares++;
+            if (numero % 2 == 0) quantPares++; //quantPares = quantPares + 1;
             else quantImpares++;
 
             count++;
         }while (count < quantNumeros);
 
-        System.out.println("Quantidade Par: " + quantPares);
+        System.out.println("Quantidade Par: " + quantPares); 
         System.out.println("Quantidade Ímpar: " + quantImpares);
         
     }
